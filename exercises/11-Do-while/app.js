@@ -1,7 +1,19 @@
-let i = 20;
+let i = 21;
+
+let result='';
+
 do {
-    // Magic goes here;
-    
-    i--;
-} while (i > 0);
-console.log('LIFTOFF')
+
+  i = i-1;
+  result +="\n"+i
+  if (i > 0 && i % 5 == 0 )
+  {
+    result+='!'
+  }
+  
+
+} while (i>1);
+console.log(result +"\n"+'LIFTOFF')
+
+
+
